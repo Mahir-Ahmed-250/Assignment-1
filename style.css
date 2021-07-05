@@ -7,7 +7,8 @@ h1{
 .color{
     color: rgb(255, 72, 0);
 }
-section{display: flex;}
+.felexible{display: flex;
+margin: 1px;}
 .link-button{
     text-decoration: none;
     background-color: rgb(255, 72, 0);
@@ -18,10 +19,20 @@ section{display: flex;}
     font-weight: 700;}
 .First-Half{width: 50%;
     padding: 2%;
-margin-top: 80px;}
+    margin-top: 80px;}
 .First-Half img{  width: 100%;
-    margin-top: 40px;}
-.Top-Banner{background-image: url(images/shapes/7.png);
-background-repeat: no-repeat;}
-
+    margin-top: 20px;}
+.Top-Banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.About-us{color: orangered;
+text-align: center;}
+.About{
+        font-size: 25px;
+    text-align: justify;}
+.Second-Banner{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    margin-top: -10%;
+}
 
