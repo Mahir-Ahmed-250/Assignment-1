@@ -23,7 +23,7 @@ h1{
     background-image: linear-gradient(rgb(255, 123, 0), rgb(255, 0, 0));
     color: white;
     font-weight: 700;
-    box-shadow: 15px 10px 4px rgb(139, 128, 128);
+    box-shadow: 5px 6px 3px grey;
 
 }
 
