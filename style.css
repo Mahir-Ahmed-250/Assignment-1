@@ -1,38 +1,96 @@
 body{
     font-family: 'Yanone Kaffeesatz', sans-serif; margin: 0;
 }
+
 h1{
     font-size: 50px;
 }
+
 .color{
     color: rgb(255, 72, 0);
 }
-.felexible{display: flex;
-margin: 1px;}
+
+.felexible{
+    display: flex;
+    margin: 1px;
+}
+
 .link-button{
     text-decoration: none;
     background-color: rgb(255, 72, 0);
     padding: 10px 50px;
     border-radius: 10px;
-    background-image: linear-gradient(rgb(255, 136, 0), rgb(255, 38, 0));
+    background-image: linear-gradient(rgb(255, 123, 0), rgb(255, 0, 0));
     color: white;
-    font-weight: 700;}
+    font-weight: 700;
+}
+
 .First-Half{width: 50%;
     padding: 2%;
-    margin-top: 80px;}
+    margin-top: 100px;
+}
+
 .First-Half img{  width: 100%;
-    margin-top: 20px;}
+    margin-top: 2px;
+}
+
 .Top-Banner{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
 }
-.About-us{color: orangered;
-text-align: center;}
+
+.About-us{
+    color: orangered;
+    text-align: center;
+}
+
 .About{
-        font-size: 25px;
-    text-align: justify;}
+    font-size: 25px;
+    text-align: justify;
+}
+
 .Second-Banner{
     background-image: url(images/shapes/Frame\ 59.jpg);
     margin-top: -10%;
 }
+
+.Menu{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-top : solid 2px rgb(255, 102, 0);
+    border-bottom : solid 2px rgb(255, 102, 0);
+    font-weight: 700;
+    font-size: 55px;
+}
+.Menu-Card{
+    width: 35%;
+    margin-left: 1%;
+    border-radius: 50px;
+    box-shadow: 20px 20px 40px rgb(0, 0, 0)
+}
+ 
+.Food img{
+    border-radius: 20px; margin-left: 70px;
+}
+
+.Food-Name{
+    font-size: 40px;
+    text-align: center; 
+    color: rgb(255, 136, 0);
+}
+
+.Description{
+    text-align: center; font-size: 25px;
+}
+
+.slogan{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border: solid 10px;
+}
+    
 
